@@ -1,0 +1,64 @@
+media:
+  input: images
+  output: /images
+  rename: safe
+  extensions: [jpg, jpeg, png, webp, gif, svg]
+
+content:
+  - name: artworks
+    label: Eserler (Galeri)
+    type: file
+    path: data/artworks.json
+    format: json
+    fields:
+      - name: items
+        label: Resimler Listesi
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Eser Adı
+            type: string
+            required: true
+          - name: image
+            label: Resim Dosyası
+            type: image
+            required: true
+          - name: category
+            label: Kategori (İsteğe Bağlı — Doldurunca sitede filtre açılır)
+            type: string
+          - name: technique
+            label: Teknik / Boyut (İsteğe Bağlı)
+            type: string
+          - name: year
+            label: Yıl (İsteğe Bağlı)
+            type: string
+          - name: story
+            label: Eser Hakkında Not (İsteğe Bağlı)
+            type: text
+
+  - name: site
+    label: Site ve İletişim Ayarları
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: siteTitle
+        label: Site Başlığı
+        type: string
+        required: true
+      - name: enableIntro
+        label: Açılış Çizim Animasyonu
+        type: boolean
+      - name: instagram
+        label: Instagram Kullanıcı Adı (İsteğe Bağlı, @ olmadan)
+        type: string
+      - name: email
+        label: İletişim E-posta Adresi (İsteğe Bağlı)
+        type: string
+      - name: aboutText
+        label: Hakkında Yazısı (İsteğe Bağlı)
+        type: text
