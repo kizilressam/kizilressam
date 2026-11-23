@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "title": "Kızıl Ufuk",
+      "image": "/images/ornek-1.svg",
+      "category": "",
+      "technique": "Örnek Çalışma — Tuval Üzerine Soyut",
+      "year": "2026",
+      "story": "Bu örnek bir eserdir. Yönetim panelinden silebilir veya kendi çizimlerinizi ekleyebilirsiniz."
+    },
+    {
+      "title": "Botanik Eskiz",
+      "image": "/images/ornek-2.svg",
+      "category": "",
+      "technique": "Örnek Çalışma — Mürekkep Çizimi",
+      "year": "2026",
+      "story": "Bu örnek bir eserdir. Yönetim panelinden silebilir veya kendi çizimlerinizi ekleyebilirsiniz."
+    },
+    {
+      "title": "Sisli Vadiler",
+      "image": "/images/ornek-3.svg",
+      "category": "",
+      "technique": "Örnek Çalışma — Suluboya Etüdü",
+      "year": "2026",
+      "story": "Bu örnek bir eserdir. Yönetim panelinden silebilir veya kendi çizimlerinizi ekleyebilirsiniz."
+    },
+    {
+      "title": "Atölye Natürmortu",
+      "image": "/images/ornek-4.svg",
+      "category": "",
+      "technique": "Örnek Çalışma — Akrilik",
+      "year": "2026",
+      "story": "Bu örnek bir eserdir. Yönetim panelinden silebilir veya kendi çizimlerinizi ekleyebilirsiniz."
+    }
+  ]
+}
